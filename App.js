@@ -48,7 +48,7 @@ const AppTabNavigator = createMaterialBottomTabNavigator(
     },
   },
   {
-    activeColor: '#000',
+    activeColor: '#8282ee',
     inactiveColor: 'grey',
     barStyle: { backgroundColor: '#fff' }
   }
