@@ -33,10 +33,10 @@ export default class homeScreen extends Component {
                         <View style={{ marginTop: 40, marginHorizontal: 20 }}>
                             <View style={{ width: width - 40, height: 200 }}>
                                 <ImageBackground
-                                    source={require('./imgs/dog2.jpg')}
+                                    source={require('./imgs/maindog.jpg')}
                                     style={{ flex: 1, height: null, width: null, resizeMode: 'cover' }}
                                 >
-                                    <View style={{ width: '100%', height: '100%', backgroundColor: 'rgba(0, 0, 0, .5)', paddingTop: 60 }}>
+                                    <View style={{ width: '100%', height: '100%', paddingTop: 60 }}>
                                         <Text style={{ fontSize: 20, fontWeight: 'bold', color: 'white', paddingBottom: 7, paddingHorizontal: 25 }}>Welcome to Pet hub</Text>
                                         <Text style={{ fontSize: 17, color: 'white', paddingHorizontal: 25 }}>get connected to your</Text>
                                         <Text style={{ fontSize: 17, color: 'white', paddingHorizontal: 25 }}>best buddy</Text>
@@ -91,17 +91,17 @@ export default class homeScreen extends Component {
                         <View style={styles.feature}>
                             <Text style={{ fontSize: 18, fontWeight: 'bold' }}>Featured Pet listings</Text>
                             <TouchableOpacity>
-                                <Text style={{ fontSize: 18, fontWeight: 'bold', color: '#ddd' }}>View all</Text>
+                                <Text style={{ fontSize: 18, color: '#888' }}>View all</Text>
                             </TouchableOpacity>
                         </View>
 
                         <TouchableOpacity onPress={() => this.props.navigation.navigate("pets")}>
-                            <Card style={{ height: 130, borderRadius: 10, marginTop: 40 }}>
+                            <Card style={{ height: 130, borderRadius: 10, marginTop: 30 }}>
                                 <CardItem>
                                     <Left>
                                         <View style={{ flex: 1, flexDirection: 'row', paddingHorizontal: 10 }}>
                                             <View style={{ width: 130, height: 130 }}>
-                                                <Image source={{uri: 'https://i.pinimg.com/474x/27/1c/ae/271cae2a1fde04deca605e400d80e345.jpg'}}
+                                                <Image source={require('./imgs/hannah.jpg')}
                                                     style={{ flex: 1, height: null, width: null, resizeMode: 'cover', borderRadius: 5 }}
                                                 />
                                             </View>
@@ -113,7 +113,7 @@ export default class homeScreen extends Component {
                                                     </View>
                                                     <Text style={{ fontSize: 14, paddingTop: 5, color: '#696969' }}>Bengal cat</Text>
                                                     <Text style={{ fontSize: 13, paddingTop: 5, color: '#696969' }}>2 years old</Text>
-                                                    <Text style={{ fontSize: 14, fontWeight: 'bold', color: '#8282ee', paddingTop: 5 }}>N50,000</Text>
+                                                    <Text style={{ fontSize: 14, fontWeight: 'bold', color: '#655DB0', paddingTop: 5 }}>N50,000</Text>
                                                 </View>
                                             </Body>
                                         </View>
@@ -127,7 +127,7 @@ export default class homeScreen extends Component {
                                 <Left>
                                     <View style={{ flex: 1, flexDirection: 'row', paddingHorizontal: 10 }}>
                                         <View style={{ width: 130, height: 130 }}>
-                                            <Image source={require('./imgs/cat5.jpg')}
+                                            <Image source={require('./imgs/lola.jpg')}
                                                 style={{ flex: 1, height: null, width: null, resizeMode: 'cover', borderRadius: 5 }}
                                             />
                                         </View>
@@ -139,7 +139,7 @@ export default class homeScreen extends Component {
                                                 </View>
                                                 <Text style={{ fontSize: 14, paddingTop: 5, color: '#696969' }}>Bengal Cat</Text>
                                                 <Text style={{ fontSize: 13, paddingTop: 5, color: '#696969' }}>2 years old</Text>
-                                                <Text style={{ fontSize: 14, fontWeight: 'bold', color: '#8282ee', paddingTop: 5 }}>N50,000</Text>
+                                                <Text style={{ fontSize: 14, fontWeight: 'bold', color: '#655DB0', paddingTop: 5 }}>N50,000</Text>
                                             </View>
                                         </Body>
                                     </View>
@@ -152,7 +152,7 @@ export default class homeScreen extends Component {
                                 <Left>
                                     <View style={{ flex: 1, flexDirection: 'row', paddingHorizontal: 10 }}>
                                         <View style={{ width: 130, height: 130 }}>
-                                            <Image source={require('./imgs/dog.jpg')}
+                                            <Image source={require('./imgs/chukwudi.jpg')}
                                                 style={{ flex: 1, height: null, width: null, resizeMode: 'cover', borderRadius: 5 }}
                                             />
                                         </View>
@@ -164,7 +164,7 @@ export default class homeScreen extends Component {
                                                 </View>
                                                 <Text style={{ fontSize: 14, paddingTop: 5, color: '#696969' }}>German Shepherd Dog</Text>
                                                 <Text style={{ fontSize: 13, paddingTop: 5, color: '#696969' }}>3 years old</Text>
-                                                <Text style={{ fontSize: 14, fontWeight: 'bold', color: '#8282ee', paddingTop: 5 }}>N80,000</Text>
+                                                <Text style={{ fontSize: 14, fontWeight: 'bold', color: '#655DB0', paddingTop: 5 }}>N80,000</Text>
                                             </View>
                                         </Body>
                                     </View>
@@ -178,7 +178,7 @@ export default class homeScreen extends Component {
                                 <Left>
                                     <View style={{ flex: 1, flexDirection: 'row', paddingHorizontal: 10 }}>
                                         <View style={{ width: 130, height: 130 }}>
-                                            <Image source={require('./imgs/cat2.jpg')}
+                                            <Image source={require('./imgs/shukura.jpg')}
                                                 style={{ flex: 1, height: null, width: null, resizeMode: 'cover', borderRadius: 5 }}
                                             />
                                         </View>
@@ -190,7 +190,7 @@ export default class homeScreen extends Component {
                                                 </View>
                                                 <Text style={{ fontSize: 14, paddingTop: 5, color: '#696969' }}>American wirehair Cat</Text>
                                                 <Text style={{ fontSize: 13, paddingTop: 5, color: '#696969' }}>3 years old</Text>
-                                                <Text style={{ fontSize: 14, fontWeight: 'bold', color: '#8282ee', paddingTop: 5 }}>N80,000</Text>
+                                                <Text style={{ fontSize: 14, fontWeight: 'bold', color: '#655DB0', paddingTop: 5 }}>N80,000</Text>
                                             </View>
                                         </Body>
                                     </View>
@@ -228,10 +228,11 @@ const styles = StyleSheet.create({
         height: 40,
         width: 110,
         justifyContent: 'center',
+        marginTop: 20,
         marginHorizontal: 235
     },
     feature: {
-        marginTop: 50,
+        marginTop: 40,
         flexDirection: 'row',
         justifyContent: 'space-between',
         marginHorizontal: 20

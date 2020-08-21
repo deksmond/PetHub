@@ -13,7 +13,7 @@ export default class welcomeScreen extends React.Component {
 
         <View>
           <Text style={{ textAlign: "center", fontWeight: "bold", fontSize: 23, paddingTop: 25 }}>Find your best friend</Text>
-          <Text style={{ textAlign: "center", paddingTop: 8, fontSize: 17 }}>{'Shop online for pets, and get them \n delivered to your home in minutes'}</Text>
+          <Text style={{ textAlign: "center", paddingTop: 8, fontSize: 18, color: '#888' }}>{'Shop online for pets, and get them \n delivered to your home in minutes'}</Text>
         </View>
 
         <TouchableOpacity style={styles.button} onPress={() => this.props.navigation.navigate("Home")}>

@@ -70,7 +70,7 @@ export default class petScreen extends React.Component {
                     <Text style={{ fontSize: 14, paddingTop: 5, color: '#696969' }}>Bengal Cat</Text>
                     <View style={{ flexDirection: 'row', justifyContent: 'space-between' }}>
                         <Text style={{ fontSize: 13, paddingTop: 5, color: '#696969' }}>2 years old</Text>
-                        <Text style={{ fontSize: 14, fontWeight: 'bold', color: '#8282ee', paddingTop: 5 }}>N50,000</Text>
+                        <Text style={{ fontSize: 14, fontWeight: 'bold', color: '#655DB0', paddingTop: -5 }}>N50,000</Text>
                     </View>
 
                     <Text style={{ fontSize: 18, fontWeight: 'bold', marginTop: 30 }}>Description</Text>
