@@ -21,9 +21,9 @@ export default class cartScreen extends Component {
 
     renderPost = post => {
         return(
-            <TouchableOpacity>
+            <TouchableOpacity onPress={() => this.props.navigation.navigate('pets')}>
                 <View style={styles.feedItem}>
-                    <Image source={post.avatar} style={styles.avatar} />
+                    <Image source={{uri: 'https://i.pinimg.com/474x/27/1c/ae/271cae2a1fde04deca605e400d80e345.jpg'}} style={styles.avatar} />
                     <View style={{ flex: 1 }}>
                         <View style={{ flexDirection: "column", justifyContent: "space-between", alignItems: "flex-start" }}>
                             <Text style={styles.title}>{post.title}</Text> 

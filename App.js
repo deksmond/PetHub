@@ -55,14 +55,15 @@ const AppTabNavigator = createMaterialBottomTabNavigator(
 );
 
 const RouteStack = createStackNavigator({
-  pet: petScreen
+    pets: petScreen,
+    welcome: welcomeScreen
 });
 
 export default createAppContainer(
   createSwitchNavigator(
     {
       welcome: welcomeScreen,
-      Route: RouteStack,
+      Routes: RouteStack,
       App: AppTabNavigator
     },
     {
