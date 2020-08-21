@@ -3,4 +3,4 @@ A pet store/market for pet lovers to get one or several pets of various breeds a
 
 
 # Usage
-Built with the React Native CLI, a code editor, simulator and other tools are needful. Download/fork this project then follow instructions on https://reactnative.dev/docs/environment-setup to setup and get ready to add awesome features
+Built with the React Native CLI, a code editor, simulator and other tools are needful. Download/fork this project then follow instructions on https://reactnative.dev/docs/environment-setup to setup and get ready to add awesome features.
